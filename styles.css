@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Norse";
+    src: url(./fonts/norse/Norse.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Norse";
+    src: url(./fonts/norse/Norsebold.otf) format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    height: 100vh;
+}
+
+#background-image {
+    width: 30%;
+    background-image: url('images/albert-canite-zP7uIPdBekI-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#company-name {
+    color: white;
+    font-family: "Norse", sans-serif;
+    font-weight: bold;
+    font-size: 600%;
+}
+
+#logo-background {
+    height: 15%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-background img {
+    max-height: 80%;
+    width: auto;
+}
+
+#photo-credit {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+#photo-credit a:visited {
+    color: white;
+}
+
+#sign-up-section {
+    width: 70%;
+}
+
+#sign-up-message {
+    background-color: #f4f4f4;
+    height: 35%;
+}
+
+#sign-up-form {
+    background-color: white;
+    height: 35%;
+}
+
+#sign-up-create-account {
+    background-color: #f4f4f4;
+    height: 30%;
+}
